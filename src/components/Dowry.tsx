@@ -43,7 +43,7 @@ const Dowry = () => {
   }
 
   return (
-    <main className="p-4 md:p-10 lg:p-16 xl:p-36 2xl:p-44 flex justify-center lg:justify-between items-center flex-col lg:flex-row min-h-screen bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${bg1})` }}>
+    <main className="px-4 md:px-10 lg:px-16 xl:px-36 2xl:px-44 flex justify-center lg:justify-between items-center flex-col lg:flex-row min-h-screen bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${bg1})` }}>
       <div className="mb-20 lg:mb-0 text-center lg:text-left animate-fade-right animate-once animate-ease-linear">
         <h1 className="RobotoSlab text-4xl lg:text-5xl font-medium text-slate-800">
           India&apos;s AI dowry calculator

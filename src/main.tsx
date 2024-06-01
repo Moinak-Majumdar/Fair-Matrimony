@@ -1,13 +1,10 @@
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Calculation from './context/Calculate.tsx'
 import Router from './Router.tsx'
-import { BrowserRouter } from 'react-router-dom'
+import {StrictMode} from 'react'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
-    <Calculation>
-      <Router />
-    </Calculation>
-  </BrowserRouter>,
+  <StrictMode>
+    <Router />
+  </StrictMode>
 )
