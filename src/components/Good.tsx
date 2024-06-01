@@ -1,4 +1,5 @@
-import bg3 from "/image/bg-3.jpg";
+import bg3 from "/image/bg-3.webp";
+
 const Good = () => {
   return (
     <main className="p-4 md:p-10 lg:p-16 xl:p-36 2xl:p-44 flex justify-center items-center min-h-screen bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${bg3})` }}>

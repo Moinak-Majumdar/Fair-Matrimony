@@ -1,4 +1,4 @@
-import bg2 from '/image/bg-2.jpg'
+import bg2 from '/image/bg-2.webp'
 
 const Warning = () => {
   return (

@@ -1,5 +1,5 @@
 import { useCalculation } from "../context/Calculate"
-import bg1 from "/image/bg-1.jpg";
+import bg1 from "/image/bg-1.webp";
 import { FormControl, InputLabel, MenuItem, Select, Button, Dialog, DialogActions, DialogTitle, DialogContentText, DialogContent, Slide } from '@mui/material'
 import { TransitionProps } from '@mui/material/transitions';
 import { FormEvent, useState, forwardRef } from "react";
